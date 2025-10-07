@@ -2,7 +2,7 @@
 import { render } from "solid-js/web";
 import "solid-devtools";
 import App from "./App";
-import "index.css";
+import "./index.css";
 
 const root = document.getElementById("root");
 
