@@ -1,7 +1,7 @@
 {
 	"setupTasks": [
 		{
-			"command": "bun install",
+			"command": "pnpm install",
 			"name": "Installing Dependencies"
 		}
 	],
@@ -9,7 +9,7 @@
 	"tasks": {
 		"dev": {
 			"name": "dev",
-			"command": "bun dev",
+			"command": "pnpm dev",
 			"runAtStart": true,
 			"preview": {
 				"port": 3000
